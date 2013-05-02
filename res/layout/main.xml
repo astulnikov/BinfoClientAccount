@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb346" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/TextHello"
+        android:textSize="20dp" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView1"
+        android:layout_below="@+id/TextView1" 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/buttonStr"
+        android:layout_width="257dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/str_btn" />
+
+    <Button
+        android:id="@+id/buttonProd"
+        android:layout_width="257dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/buttonStr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/prod_btn" />
+
+    <Button
+        android:id="@+id/buttonExp"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/buttonProd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/exp_btn"/>
+
+</RelativeLayout>

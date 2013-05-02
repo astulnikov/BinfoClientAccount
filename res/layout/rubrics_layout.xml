@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb346" >
+
+    <ExpandableListView
+        android:id="@+id/listViewRubrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indicatorLeft="250dp"
+        android:indicatorRight="300dp" >
+    </ExpandableListView>
+
+</RelativeLayout>
